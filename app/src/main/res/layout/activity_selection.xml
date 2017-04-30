@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="iics.ust.com.usturista.SelectionActivity">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#446CB3"
+        android:layout_weight=".1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WHERE DO WE START?"
+            android:paddingLeft="10dp"
+            android:textScaleX="1.2"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:fadeScrollbars="false">
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#f1c40f">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="0% Complete"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textScaleX="1.1"
+            android:gravity="center"
+            android:id="@+id/progress"/>
+    </RelativeLayout>
+
+</LinearLayout>

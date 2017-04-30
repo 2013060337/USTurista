@@ -1,0 +1,37 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<fragment
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".9"
+    tools:context="iics.ust.com.usturista.SpecificLocation">
+    </fragment>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:background="#f2f2f2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IM HERE"
+            android:textStyle="bold"
+            android:textColor="#446CB3"
+            android:textSize="20sp"
+            android:textScaleX="1.1"
+            android:gravity="center"
+            android:id="@+id/imHere"/>
+    </RelativeLayout>
+</LinearLayout>
+
+

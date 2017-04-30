@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">USTurista</string>
+
+    <string-array name="Member_names">
+        <item>Albertus Magnus</item>
+        <item>Botanical Garden</item>
+        <item>UST Chapel</item>
+        <item>Arch of The Centuries</item>
+        <item>Miguel de Benavides Library</item>
+        <item>Quadricentennial Park Fountain</item>
+        <!--<item>Benavides Monument</item>-->
+        <!--<item>Main Building</item>-->
+        <!--<item>Roque Ruano Building</item>-->
+        <!--<item>BGPOP</item>-->
+        <!--<item>Benavides Building</item>-->
+        <!--<item>UST Tan Yan Kee Student Center</item>-->
+        <!--<item>St. Raymund de Penafort Building</item>-->
+        <!--<item>Beato Angelico Building</item>-->
+        <!--<item>St. Martin de Porres Building</item>-->
+        <!--<item>Thomas Aquinas Research Complex</item>-->
+        <!--<item>Quadricentennial Pavilion</item>-->
+        <!--<item>Central Seminary Building</item>-->
+        <!--<item>UST Benavides Cancer Institute</item>-->
+        <!--<item>UST Health Service</item>-->
+        <!--<item>UST Hospital</item>-->
+        <!--<item>UST Hospital-Clinical Division</item>-->
+        <!--<item></item>-->
+
+    </string-array>
+
+    <array name="profile_pics">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+    <string-array name="statues">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+    </string-array>
+
+    <string-array name="contactType">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+        <!--<item></item>-->
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_specific_landmark">SpecificLandmark</string>
+    <string name="albertusMagnus">Named after the Dominican Albertus Magnus, the building houses the College of Education, the Conservatory of Music, and the Education High School.</string>
+    <string name="botanicalGarden">Home to Some 500 Plant Species", The UST Botanical Gardens has one of the largest number of herbal plants in the city. Its range of plants includes several of the Filipino variety as well those of the fire and zinnia trees. It is an absolute delight to be walking among the plants and listen to the endless chirping of all kinds of birds and insects. For nature lovers, this is a must-see.</string>
+    <string name="ustChapel">This building houses the UST Chapel (which is also the Santisimo Rosario Parish Church) the UST Central Seminary, and the UST Ecclesiastical Faculties. The Parish was canonically inaugurated on April 26, 1942 by Michael O\'Doherty, the Archbishop of Manila during that time.</string>
+    <string name="archCenturies">The Arch of the Centuries is a triumphal arch at the Plaza Intramuros of the University of Santo Tomas in Manila, in the Philippines that stands meters away from the university\'s Millennium Gate along España Boulevard.</string>
+    <string name="benavidesLibrary">The UST Miguel de Benavides Library, is the central library of the University of Santo Tomas. The Library has been in continuous service and even antedates the existence of the University itself.</string>
+    <string name="quadriPark">Considered as a 21st Century park because of its contemporary landscape elements found in the park.  The plan is almost symmetrical. The color scheme is so marvelous it gives of a historical element to the site. that it Its design is linear for easy access of the students passing between the Main Building and the Library.</string>
+    <string name="title_activity_specific_location">Map</string>
+
+</resources>
